@@ -1,4 +1,6 @@
-
+html{
+    scroll-behavior: smooth;
+}
 h1 {
     top: 35%;
     left: 20%;
@@ -11,6 +13,15 @@ h1 {
     -webkit-background-clip: text;
     background-clip: text;
     animation: animate 10s linear infinite;
+}
+
+.obs{
+    font-size: small;
+    color: #eef1fb55;
+}
+
+div section a{
+    text-decoration: none;
 }
 
 body {
@@ -185,6 +196,26 @@ button {
     display: block;
     margin: auto;
     transition: background-color 0.3s, color 0.3s;   
+}
+
+textarea{
+    width: auto;
+    border: 10px solid;
+    border-width: 5px;
+    border-radius: 10px;
+    border-color: azure;
+    font-weight: bold;
+    color: azure;
+    font-family: JetBrains Mono;
+    background: none;
+    transition: background-color 0.3s, color 0.3s;    
+}
+
+textarea:focus{
+    outline: none;
+    border-color: #ff00f3;
+    background-color: azure;
+    color: #121212;
 }
 
 button:hover{
