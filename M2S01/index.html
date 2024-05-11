@@ -1,23 +1,149 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet", href="style.css">
     <title>Document</title>
 </head>
 <body>
+    <section class="init">
     <div>
-        <h1>LabQuiz</h1>
-        <h3>O LabQuiz é um quiz de 8 perguntas para desafiar seus conhecimentos em HTML5 e CSS.</h3>
+        <section id="intro">
+            <h1 class="title centralizado">LabQuiz</h1>
+            <h3 class="description centralizado">O LabQuiz é um quiz de 8 perguntas para desafiar seus conhecimentos em HTML5 e CSS.</h3>
+            <br>
+            <br>
+        </section>
     </div>
     <div>
-        <label for="nome">Nome: </label>
-        <input id="nome" type="text"/>
-        <br>
-        <br>
-        <br>
-        <button id="iniciar" type="submit">Iniciar</button>
+        <section id="formularioInicial">
+            <div class="centralizado">
+                <input class="inputText" type="text" placeholder="Insira seu nome"/>
+            </div>
+            <br>
+            <br>
+            <button class="button" type="submit">Iniciar</button>
+        </section>
     </div>
-    
+    </section>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <main id="main">
+        <h2 class="centralizado">1° Como se define um estilo inline em HTML?</h2>
+        <div class="centralizado">
+            <input class="questions" type="text" placeholder="Resposta"/>
+        </div>
+        <br>
+        <br>
+        <br>
+        <h2 class="centralizado">2° Qual é a tag usada para criar uma lista ordenada em HTML?</h2>
+        <div class="centralizado">
+            <select class="uniqueSelect" name="Resposta">
+                <option class="uniqueOption" value="" disabled selected hidden>Resposta</option>
+                <option class="uniqueOption" value="ol">ol</option>
+                <option class="uniqueOption" value="ul">ul</option>
+                <option class="uniqueOption" value="li">li</option>
+                <option class="uniqueOption" value="order-list">order-list</option>
+            </select>
+        </div>
+        <br>
+        <br>
+        <br>
+        <h2 class="centralizado">3° Qual propriedade CSS é usada para alterar a cor do texto?</h2>
+        <div class="centralizado">
+            <select class="uniqueSelect" name="Resposta">
+                <option value="" disabled selected hidden >Resposta</option>
+                <option class="uniqueOption" value="font-color">font-color</option>
+                <option class="uniqueOption" value="color">color</option>
+                <option class="uniqueOption" value="background-color">background-color</option>
+                <option class="uniqueOption" value="text-color">text-color</option>
+            </select>
+        </div>
+        <br>
+        <br>
+        <br>
+        <h2 class="centralizado">4° Como se referencia um arquivo CSS externo em um documento HTML?</h2>
+        <div class="centralizado">
+            <input class="questions" type="text" placeholder="Resposta"/>
+        </div>
+        <br>
+        <br>
+        <br>
+        <h2 class="centralizado">5° Font-size é a propriedade CSS usada para alterar o tamanho da fonte de um texto?</h2>
+        <div class="centralizado">
+            <select class="uniqueSelect" name="Resposta">
+                <option value="" disabled selected hidden>Resposta</option>
+                <option class="uniqueOption" value="sim">sim</option>
+                <option class="uniqueOption" value="nao">não</option>
+            </select>
+        </div>
+        <br>
+        <br>
+        <br>
+        <h2 class="centralizado">6° Qual é a propriedade CSS usada para definir a largura de um elemento?</h2>
+        <div class="centralizado">
+            <select class="multipleSelect" name="Resposta" multiple>
+                <option value="" disabled selected hidden>Resposta</option>
+                <option class="multipleOption" value="height">height</option>
+                <option class="multipleOption" value="size">size</option>
+                <option class="multipleOption" value="width">width</option>
+                <option class="multipleOption" value="max-width">max-width</option>
+            </select>
+        </div>
+        <br>
+        <br>
+        <br>
+        <h2 class="centralizado">7° Como se cria um comentário em CSS?</h2>
+        <div class="centralizado">
+            <select class="multipleSelect" name="Resposta" multiple>
+                <option class="multipleOption" value="" disabled selected hidden>Resposta</option>
+                <option class="multipleOption" value="!--"> < !-- -- > </option>
+                <option class="multipleOption" value="//">//</option>
+                <option class="multipleOption" value="/*">/* */</option>
+            </select>
+        </div>
+        <br>
+        <br>
+        <br>
+        <h2 class="centralizado">8° Qual é a propriedade CSS usada para definir a altura de um elemento?</h2>
+        <div class="centralizado">
+            <select class="multipleSelect" name="Resposta" multiple>
+                <option class="multipleOption" value="" disabled selected hidden>Resposta</option>
+                <option class="multipleOption" value="height">height</option>
+                <option class="multipleOption" value="size">size</option>
+                <option class="multipleOption" value="min-height">min-height</option>
+                <option class="multipleOption" value="max-height">max-height</option>
+            </select>
+        </div>
+        <br>
+        <br>
+        <br>
+    </main>
+    <footer>
+        <p>Autor: antonioszm</p>
+        <p><a href="https://github.com/antonioszm">github</a></p>
+    </footer>
 </body>
 </html>

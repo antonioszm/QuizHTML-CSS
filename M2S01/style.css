@@ -1,0 +1,240 @@
+
+h1 {
+    top: 35%;
+    left: 20%;
+    background: linear-gradient(90deg, #ff0000, #ffff00, #ff00f3, #0033ff, #ff00c4, #ff0000);
+    background-size: 400%;
+    letter-spacing: 5px;
+    font-weight: 600;
+    word-spacing: 5px;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    animation: animate 10s linear infinite;
+}
+
+body {
+    font-family: JetBrains Mono;
+    color: azure;
+    background-color: #121212;
+}
+
+label {
+    color: azure;
+}
+.title{
+    font-size: 40px;
+}
+
+.centralizado{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+#description{
+    font-size: 24px;
+}
+
+input[type = "text"]{
+    border: 10px solid;
+    border-width: 5px;
+    border-radius: 10px;
+    border-color: azure;
+    font-weight: bold;
+    color: azure;
+    text-align: center;
+    font-family: JetBrains Mono;
+    background: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    transition: background-color 0.3s, color 0.3s;   
+}
+input[type="text"]:focus{
+    outline: none;
+    border-color: #ff00f3;
+    background-color: azure;
+    color: #121212;
+}
+
+main input[type = "text"] {
+    overflow: auto;
+    border: 5px solid;
+    border-width: 5px;
+    border-radius: 10px;
+    border-color: azure;
+    font-weight: bold;
+    color: azure;
+    text-align: center;
+    font-family: JetBrains Mono;
+    background: none;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    transition: background-color 0.3s, color 0.3s;   
+}
+
+.uniqueSelect{
+    overflow: auto;
+    border: 5px solid;
+    border-width: 5px;
+    border-radius: 10px;
+    border-color: azure;
+    font-weight: bold;
+    color: azure;
+    text-align: center;
+    font-family: JetBrains Mono;
+    background: none;
+    padding-left: 20px;
+    padding-right: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.multipleSelect{
+    border: none;
+    font-weight: bold;
+    color: azure;
+    text-align: center;
+    font-family: JetBrains Mono;
+    background: none;
+
+    transition: background-color 0.3s, color 0.3s;
+}
+
+main div select .uniqueOption{
+    overflow: auto;
+    border: 5px solid;
+    border-width: 5px;
+    border-radius: 10px;
+    border-color: azure;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    font-family: JetBrains Mono;
+    background: none;
+    padding-left: 20px;
+    padding-right: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    transition: background-color 0.3s, color 0.3s;   
+}
+main div select .uniqueOption:focus{
+    outline: none;    
+}
+
+main div select .multipleOption{
+    overflow: auto;
+    font-weight: bold;
+    color: azure;
+    text-align: center;
+    font-family: JetBrains Mono;
+    background: none;
+    padding-left: 20px;
+    padding-right: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    transition: background-color 0.3s, color 0.3s;   
+}
+main div select .multipleOption:focus{
+    outline: none;    
+}
+main div select .multipleOption:checked{
+    background-color: #ff00f3;
+}
+
+
+option {
+    overflow: auto;
+    border: 5px solid;
+    border-width: 5px;
+    border-radius: 10px;
+    border-color: azure;
+    font-weight: bold;
+    color: azure;
+    text-align: center;
+    font-family: JetBrains Mono;
+    background: none;
+    padding-left: 20px;
+    padding-right: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    transition: background-color 0.3s, color 0.3s;   
+}
+
+
+button {
+    outline: none;
+    border: 10px solid;
+    border-width: 5px;
+    border-radius: 10px;
+    border-color: azure;
+    font-weight: bold;
+    font-family: JetBrains Mono;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: none;    
+    color: azure;
+    display: block;
+    margin: auto;
+    transition: background-color 0.3s, color 0.3s;   
+}
+
+button:hover{
+    background-color: azure;
+    color: #0033ff;
+}
+
+.bar{
+    top: 35%;
+    left: 20%;
+    background: linear-gradient(90deg, #ff0000, #ffff00, #ff00f3, #0033ff, #ff00c4, #ff0000);
+    background-size: 400%;
+    letter-spacing: 5px;
+    font-weight: 600;
+    word-spacing: 5px;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    animation: animate 10s linear infinite;
+}
+
+footer p{
+    color: azure;
+}
+
+footer p a{
+    background: linear-gradient(90deg, #ff0000, #ffff00, #ff00f3, #0033ff, #ff00c4, #ff0000);
+    background-size: 400%;
+    font-weight: 600;
+    word-spacing: 5px;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    animation: animate 10s linear infinite;
+}
+
+footer {
+    text-align: center;
+    border-top: 10px solid;
+    border-width: 5px;
+    border-color:#ff00f3;
+}
+
+
+@keyframes animate{
+    0%{
+        background-position: 0%;
+    }
+    100%{
+        background-position: 400%;
+    }
+}
+
